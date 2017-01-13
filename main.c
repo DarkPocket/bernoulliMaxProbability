@@ -31,7 +31,7 @@ double permutation(int x, int y)
 double combination(int x, int y)
 {
         // 组合数 C x y C 2 5
-        long  double result;
+           double result;
         int i, j;
         i = 0;
         result = 1;
@@ -61,7 +61,7 @@ double bernoulliMaxProbability ( int n, double p  )
         int i = 0;
         i = 45;
 
-        // for (i = 1; i < n; i++)
+
         for (i = 0; i < n + 1; i++)
         {
                 temp = combination(i, n) * pow(p, i) * pow(p_, n - i);
@@ -70,7 +70,7 @@ double bernoulliMaxProbability ( int n, double p  )
                         MaxProbability = temp;
                         k = i;
 
-                        //     printf(" P %d = %lf ", k, MaxProbability);
+
                 }
         }
 
@@ -83,7 +83,7 @@ double bernoulliMaxProbability ( int n, double p  )
 int main()
 {
         /*    double x = 0;
-            x = combination(2, 20);
+
             int i = 5;
             int n = 20;
 
@@ -98,6 +98,6 @@ int main()
         bernoulliMaxProbability(n, p);
 
 
-        printf("Hello world!\n");
+        printf("over\n");
         return 0;
 }
