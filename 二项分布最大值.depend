@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1484278131 source:f:\codesave\c\二项分布最大值\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
